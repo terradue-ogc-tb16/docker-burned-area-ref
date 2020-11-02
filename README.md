@@ -39,12 +39,12 @@ optional arguments:
 ### Getting the Common Workflow Language (CWL) script
 
 ```console
-docker run --rm -it terradue/nb-burned-area:latest burned-area-ref --cwl --docker terradue/nb-burned-area:latest
+docker run --rm -it terradue/nb-burned-area-ref:latest burned-area-ref --cwl --docker terradue/nb-burned-area:latest
 ```
 ### Getting the Common Workflow Language (CWL) default parameters 
 
 ```console
-docker run --rm -it terradue/nb-burned-area:latest burned-area-ref --params
+docker run --rm -it terradue/nb-burned-area-ref:latest burned-area-ref --params
 ```
 
 ### Executing the CWL script
@@ -52,7 +52,7 @@ docker run --rm -it terradue/nb-burned-area:latest burned-area-ref --params
 Get the CWL script:
 
 ```console
-docker run --rm -it terradue/nb-burned-area-ref:latest burned-area-ref --cwl --docker terradue/nb-burned-area:latest > burned-area-ref.cwl
+docker run --rm -it terradue/nb-burned-area-ref:latest burned-area-ref --cwl --docker terradue/nb-burned-area-ref:latest > burned-area-ref.cwl
 ```
 
 Get the parameters:
