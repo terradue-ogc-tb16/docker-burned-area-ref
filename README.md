@@ -52,13 +52,13 @@ docker run --rm -it terradue/nb-burned-area:latest burned-area-ref --params
 Get the CWL script:
 
 ```console
-docker run --rm -it terradue/nb-burned-area:latest burned-area-ref --cwl --docker terradue/nb-burned-area:latest > burned-area-ref.cwl
+docker run --rm -it terradue/nb-burned-area-ref:latest burned-area-ref --cwl --docker terradue/nb-burned-area:latest > burned-area-ref.cwl
 ```
 
 Get the parameters:
 
 ```console
-docker run --rm -it terradue/nb-burned-area:latest burned-area-ref --params > burned-area-ref.yml
+docker run --rm -it terradue/nb-burned-area-ref:latest burned-area-ref --params > burned-area-ref.yml
 ```
 
 Execute the CWL script with `cwltool`:
